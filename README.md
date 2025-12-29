@@ -60,8 +60,8 @@ make uninstall
 
 ## VLCKit
 
-This project vendors the VLCKit binary package in `Vendor/VLCKit` (LGPL 2.1).
-If you need to re-fetch it:
+This project downloads the VLCKit binary package into `Vendor/VLCKit` (LGPL 2.1).
+To re-fetch it manually:
 
 ```bash
 ./scripts/fetch_vlckit.sh
